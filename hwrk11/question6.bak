@@ -1,0 +1,4 @@
+(define (shufflePairs one two)
+  (cons(one two))
+  )
+(shufflePairs '(1 2 3) '(a b c))

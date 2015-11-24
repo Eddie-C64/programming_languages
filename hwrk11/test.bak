@@ -1,0 +1,11 @@
+(define (test-con n)
+  (cond
+    [(integer? n) (error "it is an integer")]
+    [else "cool!"]
+    )
+  )
+(test-con 5)
+(define (last-n lst)
+  (cdr lst)
+  )
+(last-n '(3 4 5 6))

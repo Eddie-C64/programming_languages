@@ -1,0 +1,6 @@
+(define sum-nonempty-list (lambda (L)
+	(if	(null? L)
+                	0
+		(+ (car L) (sum-nonempty-list (cdr L))))
+))
+(sum-nonempty-list '(2 3 4 5 6))

@@ -1,0 +1,9 @@
+(define (first-n lst n)
+  (cond
+    ((null? lst) (write "The list is empty"))
+    ((< (length lst) n) (write "n is out of index for list."))
+    ((= n (length lst)) (lst))
+    (else (car lst))
+    )
+    ))
+(first-n '(3 4 5 6) 4)
